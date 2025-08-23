@@ -1,0 +1,19 @@
+{
+    "loginSettings": {
+        "firstName": {
+            "enabled": true
+        },
+        "lastName": {
+            "enabled": true
+        },
+        "email": {
+            "enabled": true
+        },
+        "phoneNumber": {
+            "enabled": true
+        },
+        "password": {
+            "enabled": true
+        }
+    }
+}

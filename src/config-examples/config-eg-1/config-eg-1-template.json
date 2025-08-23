@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Login Settings",
+        "description": "Configure the login settings for the user",
+        "settings": [
+            {
+                "firstName": {
+                    "type": "object",
+                    "title": "First Name",
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean",
+                            "default": true
+                        }
+                    }
+                },
+                "lastName": {
+                    "type": "object",
+                    "title": "Last Name",
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean",
+                            "default": true
+                        }
+                    }
+                },
+                "emailId": {
+                    "type": "object",
+                    "title": "Email Id",
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean",
+                            "default": true
+                        }
+                    }
+                },
+                "phoneNumber": {
+                    "type": "object",
+                    "title": "Phone Number",
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean",
+                            "default": true
+                        }
+                    }
+                },
+                "password": {
+                    "type": "object",
+                    "title": "Password",
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean",
+                            "default": true
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]
