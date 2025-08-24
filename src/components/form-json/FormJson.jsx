@@ -1,3 +1,5 @@
+import './FormJson.css';
+
 function FormJson({template}) {
     console.log(template);
     const elements = [];
@@ -18,10 +20,10 @@ function FormJson({template}) {
                         Object.entries(value0.properties).forEach(([key2, value2]) => {
                             if (value2.type === 'boolean') {
                                 elements.push(
-                                    <label key={`${key0}-${key2}`}>
+                                    <div className="boolean-container" key={`${key0}-${key2}`}>
                                         <p>{value0.title}</p>
                                         <input type="checkbox" defaultChecked={value2.default} />
-                                    </label>
+                                    </div>
                                 );
                             }
                         });
@@ -32,7 +34,7 @@ function FormJson({template}) {
     });
 
     return (
-        <div>
+        <div className="form-json">
             {elements}
         </div>
     )
